@@ -156,18 +156,7 @@ aka **cryptokiddo**
 
 ---
 
-## 🖤 License
-
-MIT License — use, modify, learn, break, rebuild.
-
-
----
-
-## 👁 Nightmare Edition Motto
-
-> scan fast  
-> think faster  
-> break nothing you can't fix
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
 
