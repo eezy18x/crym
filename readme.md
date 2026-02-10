@@ -1,50 +1,52 @@
 # crym — Nightmare Edition
-### cryptokiddo's scanner
 
-> lightweight offensive network scanner  
-> developed by suyog jung karki
+### cryptokiddo’s offensive network scanner
 
----
-
-## ⚡ Overview
-
-**crym** is a fast, multi-threaded network scanner written in Python, designed for offensive security learning, lab environments, and CTF practice.
-
-Nightmare Edition includes:
-
-- ⚡ High-speed threaded port scanning
-- 🔍 Service fingerprinting
-- 🧠 Banner grabbing
-- 🌐 Network discovery mode
-- 🎯 Targeted scan ranges
-- 🧪 Built for ethical hacking labs
-- 🖥 Works on Linux, macOS, and Windows (WSL supported)
-
-This tool is for **educational and authorized testing only**.
+> Lightweight, high‑performance network scanner for offensive security learning
+> Developed by **Suyog Jung Karki**
 
 ---
 
-##  Features
+## Overview
 
-- Multi-threaded TCP scanning
-- Banner detection
-- Service recognition
-- Host discovery
-- Clean CLI like nmap
-- Lightweight — no heavy dependencies
-- Terminal banner animation
-- Cross-platform compatibility
+**crym** is a fast, multi‑threaded network scanner written in Python, built for **Port Scanning & Host-Discovery**.
+
+The **Nightmare Edition** focuses on speed, clarity, and terminal aesthetics while remaining lightweight and dependency‑free. The tool is designed to feel professional and readable, without unnecessary noise.
+
 
 ---
 
-##  Requirements
+## Key Capabilities
 
-- Python 3.8+
-- Standard Python libraries only
+* Multi‑threaded TCP port scanning
+* Service and version fingerprinting
+* Banner grabbing
+* Network discovery (CIDR scanning)
+* Targeted port range scans
+* Clean, readable CLI output inspired by professional tooling
+* Animated terminal banner and scan feedback
+* Cross‑platform support (Linux, macOS, Windows / WSL)
 
-No external packages required.
+---
 
-Check Python:
+## Screenshot / Demo
+
+The following screenshot demonstrates a typical scan workflow, including open port detection, service fingerprinting, OS guessing, and exploitation hints.
+
+![Demo](assets/demo.png)
+
+
+
+---
+
+## Requirements
+
+* Python **3.8+**
+* Standard Python libraries only
+
+No external dependencies are required.
+
+Verify Python installation:
 
 ```bash
 python3 --version
@@ -52,9 +54,9 @@ python3 --version
 
 ---
 
-## 🛠 Installation
+## Installation
 
-### Linux / WSL
+### Linux 
 
 ```bash
 git clone https://github.com/eezy18x/crym.git
@@ -66,7 +68,7 @@ sudo mv crym /usr/local/bin/
 Run:
 
 ```bash
-crym 192.168.1.15
+crym <target>
 ```
 
 ---
@@ -80,7 +82,7 @@ chmod +x crym
 sudo mv crym /usr/local/bin/
 ```
 
-If permission blocked:
+If blocked by Gatekeeper:
 
 ```bash
 xattr -d com.apple.quarantine crym
@@ -90,75 +92,70 @@ xattr -d com.apple.quarantine crym
 
 ### Windows (without WSL)
 
-Run directly with Python:
-
 ```bash
 git clone https://github.com/eezy18x/crym.git
 cd crym
-python crym 'ip'
+python crym <target>
 ```
 
 ---
 
 ### Windows (WSL recommended)
 
-Install WSL → Ubuntu → then follow Linux steps above.
+Install WSL with Ubuntu, then follow the Linux installation steps above.
 
 ---
 
-##  Usage
+## Usage
 
 Basic scan:
 
 ```bash
-crym 'ip'
+crym <target>
 ```
 
-Service scan:
+Service and banner scan:
 
 ```bash
-crym 'ip' -m service
+crym <target> -m service
 ```
 
 Network discovery:
 
 ```bash
-crym 'ip/24' -m discover
+crym <network>/<cidr> -m discover
 ```
 
-Custom ports:
+Custom port range:
 
 ```bash
-crym 'ip' -p 1-1000
+crym <target> -p <start-end>
 ```
 
 ---
 
-## ⚠ Disclaimer
+## Project Philosophy
 
-This tool is created for:
-
-- cybersecurity learning
-- lab environments
-- CTF practice
-- authorized testing
-
-Do **not** scan networks you do not own or have permission to test.
-
-The author is not responsible for misuse.
+* Minimal dependencies
+* Clear output over noisy verbosity
+* Built to understand how scanners work internally
+* Designed to resemble real‑world offensive security tooling
 
 ---
 
-## Author
+## Legal Disclaimer
 
-suyog jung karki  
-aka **cryptokiddo**
+This tool is intended for **educational use and authorized security testing only**.
+The developer assumes no responsibility for misuse or damage caused by this software.
 
 ---
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+## License
+
+MIT License
+
+---
+
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.8%2B-green)
 ![Status](https://img.shields.io/badge/status-nightmare%20edition-black)
-
----
-
