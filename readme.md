@@ -59,7 +59,7 @@ python3 --version
 ```bash
 git clone https://github.com/eezy18x/crym-scanner.git
 cd crym
-chmod +x crym
+sudo chmod +x crym
 sudo mv crym /usr/local/bin/
 ```
 
