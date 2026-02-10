@@ -57,7 +57,7 @@ python3 --version
 ### Linux / WSL
 
 ```bash
-git clone https://github.com/eezy18x/crym.git
+git clone https://github.com/eezy18x/crym-scanner.git
 cd crym
 chmod +x crym
 sudo mv crym /usr/local/bin/
@@ -74,7 +74,7 @@ crym 192.168.1.15
 ### macOS
 
 ```bash
-git clone https://github.com/YOURUSERNAME/crym.git
+git clone https://github.com/eezy18x/crym-scanner.git
 cd crym
 chmod +x crym
 sudo mv crym /usr/local/bin/
@@ -93,7 +93,7 @@ xattr -d com.apple.quarantine crym
 Run directly with Python:
 
 ```bash
-git clone https://github.com/YOURUSERNAME/crym.git
+git clone https://github.com/eezy18x/crym-scanner.git
 cd crym
 python crym 192.168.1.15
 ```
