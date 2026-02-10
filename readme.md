@@ -95,7 +95,7 @@ Run directly with Python:
 ```bash
 git clone https://github.com/eezy18x/crym.git
 cd crym
-python crym 192.168.1.15
+python crym 'ip'
 ```
 
 ---
@@ -111,25 +111,25 @@ Install WSL → Ubuntu → then follow Linux steps above.
 Basic scan:
 
 ```bash
-crym 192.168.1.15
+crym 'ip'
 ```
 
 Service scan:
 
 ```bash
-crym 192.168.1.15 -m service
+crym 'ip' -m service
 ```
 
 Network discovery:
 
 ```bash
-crym 192.168.1.0/24 -m discover
+crym 'ip/24' -m discover
 ```
 
 Custom ports:
 
 ```bash
-crym 192.168.1.15 -p 1-1000
+crym 'ip' -p 1-1000
 ```
 
 ---
