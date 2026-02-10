@@ -24,7 +24,7 @@ This tool is for **educational and authorized testing only**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Multi-threaded TCP scanning
 - Banner detection
@@ -37,7 +37,7 @@ This tool is for **educational and authorized testing only**.
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.8+
 - Standard Python libraries only
@@ -106,7 +106,7 @@ Install WSL → Ubuntu → then follow Linux steps above.
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 Basic scan:
 
@@ -149,7 +149,7 @@ The author is not responsible for misuse.
 
 ---
 
-## 🧠 Author
+## Author
 
 suyog jung karki  
 aka **cryptokiddo**
@@ -157,6 +157,8 @@ aka **cryptokiddo**
 ---
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.8%2B-green)
+![Status](https://img.shields.io/badge/status-nightmare%20edition-black)
 
 ---
 
