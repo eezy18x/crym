@@ -57,7 +57,7 @@ python3 --version
 ### Linux / WSL
 
 ```bash
-git clone https://github.com/YOURUSERNAME/crym.git
+git clone https://github.com/eezy18x/crym.git
 cd crym
 chmod +x crym
 sudo mv crym /usr/local/bin/
